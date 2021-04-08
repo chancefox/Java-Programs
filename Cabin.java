@@ -4,6 +4,7 @@
 // Description: This Cabin class will set the attributes of each cabin created.
 //              The Cabin class also will use pricePerPerson() method to generate
 //              the price per person of each class.
+//              Use with TestCabin.java.
 
 class Cabin {
 // Create variables for the Cabin class.
