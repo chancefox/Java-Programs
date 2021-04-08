@@ -17,9 +17,9 @@ class Cabin {
 // and set them to the variables we created above, so that the pricePerPerson() method can use them.
 // Method then prints out the name, rate, and occupancy for the user.
   Cabin(String n, double r, int o) {
-    name = n;
-    rate = r;
-    occupancy = o;
+    this.name = n;
+    this.rate = r;
+    this.occupancy = o;
     nbOfCabins++; // Add 1 to nbOfCabin everytime this method is called and a new cabin is created.
   } // Cabin()
 
